@@ -63,8 +63,8 @@ function startTimer() {
 }
 
 function addLeadingZero(value) {
-    return value < 10 ? `0${value}` : value;
-  }
+  return value < 10 ? `0${value}` : value;
+}
 
 function updateTimer(remainingTime) {
   const { days, hours, minutes, seconds } = convertMs(remainingTime);
